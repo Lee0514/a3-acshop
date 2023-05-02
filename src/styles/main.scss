@@ -1,0 +1,40 @@
+@import "./cart-info.scss";
+@import "./darkness-theme.scss";
+@import "./footer.scss";
+@import "./form.scss";
+@import "./header.scss";
+@import "./register.scss";
+@import "./reset.scss";
+
+// font
+@import "./fonts/font-Inter.scss";
+@import "./fonts/font-NotoSans.scss";
+@import "./fonts/font-NunitoSans.scss";
+
+
+$screen-break-point: 749.5px;
+
+main.site-main {
+    padding-left: var(--site-edge-margin);
+    padding-right: var(--site-edge-margin);
+    padding-bottom: 40px;
+    background-color: inherit;
+  
+    .main-container {
+      display: flex;
+      position: relative;
+      max-width: 1100px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+  
+  @media screen and (min-width: $screen-break-point) {
+    main.site-main {
+      padding-bottom: 0;
+      .main-container {
+        margin-top: 80px;
+      }
+    }
+  }
