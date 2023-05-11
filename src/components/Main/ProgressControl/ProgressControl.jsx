@@ -1,5 +1,5 @@
-import { ReactComponent as NextArrow } from "../../icons/Next-arrow.svg"
-import { ReactComponent as LastArrow } from "../../icons/Last-arrow-light-theme.svg"
+import { ReactComponent as NextArrow } from "../../assets/icons/Next-arrow.svg"
+import { ReactComponent as LastArrow } from "../../assets/icons/Last-arrow-light-theme.svg"
 
 export default function ProgressControl() {
     return (

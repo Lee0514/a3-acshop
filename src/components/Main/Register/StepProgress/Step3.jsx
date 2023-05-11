@@ -35,7 +35,7 @@ export default function Step3() {
                   Label="卡號"
                   Placeholder="1111 2222 3333 4444"/>
                 <div className="col col-12">
-                    <StepInfoLg3
+                  <StepInfoLg3
                   Label="有效期限"
                   Placeholder="MM/YY"/>
                   <StepInfoLg3

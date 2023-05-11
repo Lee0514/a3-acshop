@@ -1,3 +1,4 @@
+
 section.cart-container {
     padding: 0px 24px;
     margin-top: 166px;
@@ -53,6 +54,10 @@ section.product-list {
                 margin-bottom: 17px;
                 justify-content: space-between;
                 align-items: center;
+
+                .product-button {
+                    all: unset;
+                }
 
                 .product-action {
                     display: inline-block;
