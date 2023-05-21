@@ -1,5 +1,6 @@
 import { ReactComponent as NextArrow } from "../../../assets/icons/Next-arrow.svg"
 import { ReactComponent as LastArrow } from "../../../assets/icons/Last-arrow-light-theme.svg"
+import { PropTypes } from "react"
 
 function ButtonGroup( {phase, children} ) {
   return (
@@ -45,3 +46,7 @@ export default function ProgressControl({onClick, onSubmit}) {
     )
 }
 
+ProgressControl.propTypes={
+   onClick: PropTypes.func,
+   onSubmit: PropTypes.func,
+}

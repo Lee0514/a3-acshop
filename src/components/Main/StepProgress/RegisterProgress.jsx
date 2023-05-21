@@ -4,7 +4,6 @@ function Progress({number, phase, step}) {
     <span className="progress-group" data-phase={phase}>
       <span className="progress-icon">
         <span className="text">{number}</span>
-        
       </span>
       <span className="progress-label">{step}</span>
     </span>
