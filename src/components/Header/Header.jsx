@@ -1,9 +1,9 @@
-import { ReactComponent as LOGO } from "../assets/icons/Logo.svg";
-import { ReactComponent as Toggle } from "../assets/icons/toggle.svg"
-import { ReactComponent as Search } from "../assets/icons/Icon-search.svg";
-import { ReactComponent as Cart } from "../assets/icons/Icon-cart.svg"
-import { ReactComponent as Moon } from "../assets/icons/Icon-darkness.svg";
-import { ReactComponent as Sun } from "../assets/icons/Icon-light.svg";
+import { ReactComponent as LOGO } from "../../assets/icons/Logo.svg";
+import { ReactComponent as Toggle } from "../../assets/icons/toggle.svg"
+import { ReactComponent as Search } from "../../assets/icons/Icon-search.svg";
+import { ReactComponent as Cart } from "../../assets/icons/Icon-cart.svg"
+import { ReactComponent as Moon } from "../../assets/icons/Icon-darkness.svg";
+import { ReactComponent as Sun } from "../../assets/icons/Icon-light.svg";
 
 
 export default function Header() {
