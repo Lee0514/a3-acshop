@@ -34,7 +34,7 @@ export default function Step3({ onChange }) {
       <h3 className="form-title">付款資訊</h3>
       <section className="form-body col col-12">
         <div className="col col-12">
-          <Form3 onChange={({ name, value }) => onChange({ name, value })}/>
+          <Form3 onChange={onChange}/>
         </div>
       </section>
     </form>

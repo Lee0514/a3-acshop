@@ -14,8 +14,7 @@ function ProductsInfo(props) {
           <div className="product-control-container">
             <div className="product-control">
                 <Min className="product-action minus" 
-                onClick={() => props.onMinusClick(props.id)}
-                  />
+                onClick={() => props.onMinusClick(props.id)}/>
               <span className="product-count">{props.quantity}</span>
                 <Plus className="product-action plus" 
                 onClick={() => props.onPlusClick(props.id)}/>

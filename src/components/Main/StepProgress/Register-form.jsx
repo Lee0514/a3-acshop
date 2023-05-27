@@ -10,7 +10,7 @@ function Register({ dataPhase, onChange, totalPrice }) {
     <section className="form-container col col-12">
       <Step1 />
       <Step2 />
-      <Step3 onChange={({ name, value }) => onChange({ name, value })}/>
+      <Step3 onChange={onChange}/>
     </section>
   </section>
   )
